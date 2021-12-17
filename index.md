@@ -128,10 +128,6 @@ address.
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
 {% assign online = "true_private" %}
-{% elsif begin_address contains "http" %}
-{% assign online = "true_public" %}
-{% else %}
-{% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
