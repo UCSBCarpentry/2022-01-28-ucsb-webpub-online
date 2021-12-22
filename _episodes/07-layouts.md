@@ -321,7 +321,7 @@ to all the relevant pages.
 > ## We Can't Include Link References in the Layout
 >
 > In the previous section,
-> [we recommended that you `include` a file of references]({{ relative_root_path }}{% link _episodes/includes.md %}#reusing-link-references)
+> [we recommended that you `include` a file of references]({{ relative_root_path }}{% link _episodes/06-includes.md %}#reusing-link-references)
 > for the links on your site.
 > Unfortunately, you cannot add this `{% raw %}{% include links.md %}{% endraw %}`
 > tag to the default layout of your site to prevent you from needing to
