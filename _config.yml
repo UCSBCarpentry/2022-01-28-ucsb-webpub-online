@@ -59,13 +59,13 @@ title: "Web Publishing with GitHub pages"
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-# incubator_lesson_site: "put the URL of the lesson being taught here"
+incubator_lesson_site: "https://carpentries-incubator.github.io/jekyll-pages-novice/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-# incubator_pre_survey: "put the URL of your pre-workshop survey here"
+incubator_pre_survey: "https://forms.gle/4BbhLsp4GwG9avDY6"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-# incubator_post_survey: "put the URL of your post-workshop survey here"
+incubator_post_survey: "https://forms.gle/hprkZttghzS5gL5B8"
 #
 #------------------------------------------------------------
 
@@ -79,7 +79,7 @@ kind: "workshop"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: "UCSBCarpentry"/"2022-01-28-ucsb-webpub-online"
+repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set
