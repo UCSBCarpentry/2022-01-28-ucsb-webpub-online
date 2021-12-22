@@ -135,7 +135,7 @@ There is still more to learn about page layouts,
 so we will come back to this issue of styling at the end of the episode.
 
 You might recall from
-[the introduction]({{ relative_root_path }}{% link _episodes/introduction.md %}#hello-world-in-html)
+[the introduction]({{ relative_root_path }}{% link _episodes/01-introduction.md %}#hello-world-in-html)
 to this tutorial, that a _valid_ HTML page consists of more than
 only the content we want to display.
 We haven't written these extra elements (`<html>`, `<head>`, `<meta>`, etc)
