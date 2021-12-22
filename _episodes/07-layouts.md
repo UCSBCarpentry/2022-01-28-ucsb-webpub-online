@@ -361,7 +361,7 @@ can be adapted/customised to suit your purposes.
 These themes can be elaborate and quite complicated.
 We hope that the knowledge of Jekyll that you have gained from
 following this lesson will help you understand how they work
-and determine what you need to change and where, to make the customisations
+and determine what you need to change and where, to make the customizations
 you need for your site.
 Reusing pre-existing themes designed by professional web designers helps you
 focus more on the **content** of your site, which you can write using
