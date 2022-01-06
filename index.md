@@ -9,10 +9,10 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude:       # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude:        # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Jan 28-29, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Jan 28, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30am - 12:00pm PST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-01-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2022-01-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2022-01-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jon Jablonski", "Amanda Ho"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["library-collaboratory@ucsb.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -33,9 +33,11 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 {% comment %}
-8< ============= For a workshop delete from here =============
-8< ============================= until here ==================
 {% endcomment %}
+
+<h2><strong>Registration for this workshop opens on Friday, Januaray 7th at 8:00am PST</strong></h2>
+<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webpublishing+Git&iso=20220107T08&p1=1050">Check what time registration opens in your time
+zone</a>
 
 
 {% comment %}
