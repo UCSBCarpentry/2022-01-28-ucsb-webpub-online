@@ -2,99 +2,24 @@
 
 # The Carpentries Workshop Template
 
-This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
+This repository is for a UCSB workshop. The site is based on The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
 [Library Carpentry][lc-site]'s) template for creating websites for workshops.
 
-1. **Please _do not fork this repository directly on GitHub._** Instead, please use GitHub's
-   "template" function following [the instructions below](#creating-a-repository) to copy this
-   `workshop-template` repository and customize it for your workshop.
+# UCSB Web Publishing Using Github pages
 
-2. Please *do your work in your repository's `gh-pages` branch*, since that is what is
-   [automatically published as a website by GitHub][github-project-pages].
+This is a reduced version of this Carpentry incubator lesson:
+https://carpentries-incubator.github.io/jekyll-pages-novice/index.html
+which was designed for 6 hours. We are aiming for 2.5.
 
-3. Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised
+
+# here's the rest of the template instructions:
+Once we are ready, please also [let us know][email] the workshop URL. If this is a self-organised
    workshop, you should also [fill in the self-organized workshop
    form][self-organized-workshop-form] (if you have not already done so), so we can keep track of
    all workshops. We build the list of workshops on our websites from the data included in your
    `index.md` page. We can only do that if you [customize][customization] that page correctly *and*
    let us know the workshop URL.
 
-If you run into problems,
-or have ideas about how to make this process simpler,
-please [get in touch](#getting-and-giving-help).
-The pages on [customizing your website][customization],
-the [FAQ][faq],
-and the [design notes][design] have more detail on what we do and why.
-And please note:
-if you are teaching Git,
-please [create a separate repository](#setting-up-a-separate-repository-for-learners)
-for your learners to practice in.
-
-## Video Tutorial
-
-There is a [YouTube video](https://www.youtube.com/watch?v=_Ag1JiZzyUQ) that demonstrates how to
-create a workshop website.
-
-## Creating a Repository
-
-1.  Log in to GitHub.
-    (If you do not have an account, you can quickly create one for free.)
-    You must be logged in for the remaining steps to work.
-
-2.  On this page (<https://github.com/carpentries/workshop-template>),
-    click on the green "Use this template" button (top right)
-
-    ![screenshot of this repository's GitHub page with an arrow pointing to the the 'use this template' button on the top left](fig/select-github-use-template.png?raw=true)
-
-3.  Select the owner for your new repository.
-    (This will probably be you, but may instead be an organization you belong to.)
-
-4.  Choose a name for your workshop website repository.
-    This name should have the form `YYYY-MM-DD-site`,
-    e.g., `2016-12-01-oomza`,
-    where `YYYY-MM-DD` is the start date of the workshop.
-    If your workshop is held online, then the respository name should have `-online` in the end.
-    e.g., `2016-12-01-oomza-online`
-
-5.  Make sure the repository is public, leave "Include all branches" unchecked, and click
-on "Create repository from template".
-You will be redirected to your new copy of the workshop template respository.
-
-6. Your new website will be rendered at `https://your_username.github.io/YYYY-MM-DD-site`.
-For example, if your username is `gvwilson`, the website's URL will be
-`https://gvwilson.github.io/2016-12-01-oomza`.
-
-If you experience a problem, please [get in touch](#getting-and-giving-help).
-
-## Customizing Your Website (Required Steps)
-
-There are two ways of customizing your website. You can either:
-
-- edit the files directly in GitHub using your web browser
-- clone the repository on your computer and update the files locally
-
-### Updating the files on GitHub in your web browser
-
-1.  Go into your newly-created repository,
-    which will be at `https://github.com/your_username/YYYY-MM-DD-site`.
-    For example,
-    if your username is `gvwilson`,
-    the repository's URL will be `https://github.com/gvwilson/2016-12-01-oomza`.
-
-3.  Ensure you are on the gh-pages branch by clicking on the branch under the drop
-    down in the menu bar (see the note below):
-
-    ![screenshot of this repository's GitHub page showing the "Branch" dropdown menu expanded with the "gh-pages" branch selected](fig/select-gh-pages-branch.png?raw=true)
-
-3.  Edit the header of `index.md` to customize the list of instructors,
-    workshop venue, etc.
-    You can do this in the browser by clicking on it in the file view on GitHub
-    and then selecting the pencil icon in the menu bar:
-
-    ![screenshot of top menu bar for GitHub's file interface with the edit icon highlighted in the top right](fig/edit-index-file-menu-bar.png?raw=true)
-
-    Editing hints are embedded in `index.md`,
-    and full instructions are in [the customization instructions][customization].
 
 4.  Remove the notice about using the workshop template in the `index.md` file. You can safely
     delete everything between the `{% comment %}` and `{% endcomment %}` (included) as indicated
@@ -158,29 +83,6 @@ A few minutes later, you can go to the GitHub Pages URL for your workshop site a
 page should look something like this](fig/completed-page.png?raw=true).
 
 
-## Optional but Recommended Steps
-
-
-### Update your repository description and link your website
-
-At the top of your repository on GitHub you'll see
-
-~~~
-No description, website, or topics provided. — Edit
-~~~
-
-Click 'Edit' and add:
-
-1.  A very brief description of your workshop in the "Description" box (e.g., "Oomza University workshop, Dec. 2016")
-
-2.  The URL for your workshop in the "Website" box (e.g., `https://gvwilson.github.io/2016-12-01-oomza`)
-
-This will help people find your website if they come to your repository's home page.
-
-### Update the content of the README file
-
-You can change the `README.md` file in your website's repository, which contains these instructions,
-so that it contains a short description of your workshop and a link to the workshop website.
 
 
 ## Additional Notes
