@@ -141,6 +141,11 @@ A similar example written using HTML lists would look as follows:
 Here, we used **u**nordered **l**ist tags `<ul>` and `</ul>` to define a list with 4 items, each in turn wrapped in 
 individual **l**ist **i**tem (`<li>` and `</li>`) tags. 
 
+~~~
+In general, every tag that you `<open>, you need to `</close>`.
+~~~
+{:.callout}
+
 ## Static vs Dynamic Sites
 
 _Static_ pages are those whose contents are stored on a server in a state ready
