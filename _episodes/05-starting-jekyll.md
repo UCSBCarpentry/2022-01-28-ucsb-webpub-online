@@ -1,6 +1,6 @@
 ---
 title: "Starting With Jekyll"
-teaching: 20
+teaching: 10
 exercises: 10
 questions:
 - "How can I use values stored in variables in my pages?"
