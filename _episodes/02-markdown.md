@@ -1,6 +1,6 @@
 ---
 title: "Authoring With Markdown"
-teaching: 20
+teaching: 15
 exercises: 15
 questions:
 - "How can I write content for my webpages?"
@@ -145,7 +145,7 @@ Scroll down to the bottom of the page, add a commit message if you wish, and the
 Let's do an exercise to try out writing more markdown.
 
 > ## Exercise: Try Out Markdown
-> Use [this cheatsheet][github-flavored-markdown] to add the following to your `README.md`:
+> Use [this cheatsheet][https://www.markdownguide.org/basic-syntax/] to add the following to your `README.md`:
 >
 > - Another second level heading
 > - Some text under that second level heading that includes an link and ~~strikethrough~~ text.
