@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-teaching: 20
+teaching: 10
 exercises: 10
 questions:
 - "What is static web content?"
