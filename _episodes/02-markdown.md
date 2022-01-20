@@ -220,16 +220,6 @@ Though later we will find we need HTML again for some features.
 >   - [Kramdown][kramdown] (a fast, Ruby, open source implementation released under the MIT licence)
 {: .callout}
 
-> ## Optional Exercise: Add Your Repository Details to CodiMD
->
-> If your instructors are using _CodiMD_ (or _HackMD_ or any other Markdown-based shared document platform)
-> to take notes during this workshop,
-> use Markdown syntax to add a link in that document to the repository you are using
-> to follow along with this lesson.
-> The link text should be your GitHub username, and the target your repository.
-> Your instructors will direct you towards the appropriate location in the
-> document to add your link.
->
 {: .challenge }
 
 >## More Markdown Features
