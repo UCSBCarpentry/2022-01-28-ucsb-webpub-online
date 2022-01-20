@@ -80,7 +80,6 @@
 [lesson-example]: https://carpentries.github.io/lesson-example/
 [lesson-license]: {{ relative_root_path }}{% link LICENSE.md %}
 [lesson-mainpage]: {{ relative_root_path }}{% link index.md %}
-[lesson-setup]: {{ relative_root_path }}{% link setup.md %}
 [liquid]: https://shopify.dev/docs/themes/liquid/
 [liquid-group-by]: https://jekyllrb.com/docs/liquid/filters/#group-by
 [liquid-sample]: https://jekyllrb.com/docs/liquid/filters/#sample
