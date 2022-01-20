@@ -83,7 +83,7 @@ a web browser will make a best guess regarding the layout of HTML elements on th
 > - *stylized elements*, such as `i`/`em` (for *italics/emphasis*), `b`/`strong` (for **bold**) and `u` (for <u>underlined text</u>);
 > - *headings*, numbered from `h1` to `h6` for titles and progressively smaller sub-titles;
 > - *media elements*, such as `img`, `video`, `audio` to embed rich media content; and
-> - *links*, using the important `a` (anchor) tag to [link](#) to sections in the same page or other pages within the same or external websites.
+> - *and s*, using the important `a` (anchor) tag to `[link](#)` to sections in the same page or other pages within the same or external websites.
 >
 > The [list of valid HTML tags][html5-tags] is rather extensive,
 > covering a rich range of features powering today's [world wide web][www-wikipedia].
